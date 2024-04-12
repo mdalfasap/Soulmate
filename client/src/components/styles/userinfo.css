@@ -1,0 +1,59 @@
+/* Add styles for the container */
+.bgimg {
+    position: absolute;
+    height: 100vh;
+    background-image: url("src/assets/divTseohAesSection.jpg");
+    background-position: bottom;
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+
+  }
+  
+  .backbtn {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: transparent; 
+    border: none;
+    left: 1vw;
+    top:6vh
+    
+
+  }
+  
+  .backbtn:hover{
+    color:rgb(201, 111, 130);
+  }
+
+
+.nextbtn3 {
+  z-index: 2;
+  right: 10vw;
+  bottom:10vh;
+  position: absolute;
+  width: 10vw;
+  height: 9vh;
+  background-color: #fff;
+  border-radius: 2rem;
+  border: none;
+  font-size: 0.9rem;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  transition: ease-in-out 0.3s;
+}
+.nextbtn3:hover {
+  border: none;
+  outline:solid #2b9ae3;
+  background-color: #000;
+  color: white;
+}
+
+.description-item {
+  width: calc(33.33% - 10px); /* 33.33% to ensure three items in a row, subtracting 10px for margin */
+  margin: 5px; /* Adjust as needed */
+  border-radius: 50px;
+  border: solid #232C52;
+  padding: 10px;
+  text-align: center;
+  font-size: small;
+}

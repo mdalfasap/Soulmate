@@ -1,0 +1,109 @@
+body {
+  overflow: hidden;
+}
+.main{
+ background: linear-gradient(80deg , rgb(0,0,0) 43% ,rgb(50, 0, 17),rgb(103, 2, 52), rgb(130, 8, 59), rgb(152, 19, 77) );
+}
+.imageContainer {
+  transform: rotate(-5deg);
+  width: 90%; /* Increase the width as needed */
+  height: 120vh;
+  margin-top: -7.5vh;
+}
+
+.loginImage {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-left: -4vw;
+}
+
+.btn{
+  margin-top: 5vh;
+  width: 30vw;
+  height: 7vh;
+  display: flex;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  background-color: #e42f5a;
+  border-radius: .7rem;
+
+}
+.rightxt{
+  margin: -20vh 0rem 4rem 0rem;
+  font-size: 2.4rem;
+  color: #ffffff;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.logintxt{
+  font-size: 1.9rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+
+
+
+
+}
+.numberbox {
+  margin-top: 1vh;
+  height: 10vh;
+  background: transparent;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 1.4rem;
+  width: 30vw;
+  /* transition: border-bottom 0.3s; */
+}
+
+.numberbox:focus {
+  border-bottom: 4px solid gray;
+  background-color: transparent;
+  outline: none;
+}
+
+
+.custom-checkbox {
+  appearance: none; /* Remove default styles */
+  width: 40px;
+  height: 40px;
+  border: 3px solid green;
+  border-radius: 50%;
+  background-color: black;
+  outline: none; /* Remove focus outline */
+  position: relative; /* Required for absolute positioning of ::before */
+}
+
+.custom-checkbox:checked {
+  background-color: black;
+}
+
+.custom-checkbox:checked::before {
+  content: '✔'; /* Unicode checkmark character */
+  display: block;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 14px;
+  color: white !important;
+}
+.custom-checkbox:focus{
+  border: 3px solid green;
+}
+.custom-checkbox-label{
+  position: absolute;
+  width: 120px;
+  margin-top: 1vh;
+  margin-left: .5vw;
+  color: rgb(59, 57, 57);
+}
+.custom-checkbox:focus, .custom-checkbox:active {
+  outline: none; /* Remove focus and active outlines */
+
+}
+

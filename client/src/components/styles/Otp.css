@@ -1,0 +1,244 @@
+
+.header2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.header1 {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.txt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(200, 200, 200, 1);
+    z-index: 1;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.otpbox {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    white-space: nowrap; 
+}
+
+.otpbox input {
+    width: 50px !important; 
+    height: 50px !important; 
+    margin: 8px !important;
+    text-align: center; 
+    border: 1px solid #ccc;
+    font-size: 16px; 
+    border-radius: 5px; 
+    background-color: #eeeeeeba; 
+}
+
+.otpbox input:focus {
+    outline: 2px solid #2b9ae3;
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+.nextbtn {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 3vh;
+    margin-left: 70px;
+    border-radius: 2rem;
+    border: none;
+    font-size: 0.9rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    transition: ease-in-out 0.3s;
+}
+.nextbtn2 {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+
+    border-radius: 2rem;
+    border: none;
+    font-size: 0.9rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    transition: ease-in-out 0.3s;
+}
+
+.nextbtn:hover,:focus {
+    border: none;
+    outline:solid #2b9ae3;
+    background-color: #000;
+    color: white;
+}
+.nextbtn2:hover,:focus {
+    border: none;
+    outline:solid #2b9ae3;
+    background-color: #000;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .header2 {
+        font-size: 1rem;
+    }
+
+    .txt {
+       
+        font-size: 0.8rem;
+    }
+
+    .otpbox {
+        top: 55%;
+    }
+
+    .otpbox input {
+        width: 40px !important;
+        height: 40px !important;
+        margin: 6px !important;
+        font-size: 14px;
+    }
+
+    .nextbtn,.nextbtn2 {
+        width: 6rem;
+        height: 50px;
+        margin-top: 2vh;
+        margin-left: 60px;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .header {
+        margin-top:-7   0px;
+        font-size: 1.2rem;
+    }
+
+    .txt {
+        margin-top:-10px;
+        font-size: 0.7rem;
+    }
+
+    .otpbox {
+        top: 50%;
+    }
+
+    .otpbox input {
+        width: 30px !important;
+        height: 30px !important;
+        margin: 4px !important;
+        font-size: 12px;
+    }
+
+    .nextbtn,.nextbtn2 {
+        width: 5rem;
+        height: 30px;
+        margin-left: 40px;
+        margin-top: 1.5vh;
+        font-size: 0.7rem;
+    }
+}
+/* Add styles for the container */
+.a {
+    position: relative;
+    height: 100vh;
+    background-image: url("../src/assets/divTseohAesSection.jpg");
+    background-position: bottom;
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    z-index: 0; /* Apply z-index to the container */
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+background: linear-gradient(rgb(0,0,0) 23%,rgb(0, 16, 16),rgb(19, 0, 35),rgb(29, 1, 52), rgb(143,33,79),rgb(229,43,90));   
+z-index: -1;
+}
+
+  
+  .icon {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    width: 4vw;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+
+  .box{
+        
+        border-radius: 10px;
+        background-color: white;
+        width: 30vw;        
+        height:8vh;
+        margin-top:5%;
+
+  }
+
+
+
+.resend{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.titleone{
+    margin-top: 150px; 
+    color: white;
+    width: 100%;
+    
+}
+
+.Mui-selected {
+    background-color: white !important;
+    color: black !important;
+  }
+
+/* WebKit Scrollbar Styling */
+div::-webkit-scrollbar {
+    height: 0; /* Set height to 0 to hide the vertical scrollbar */
+    width: 5px; /* Adjust the width as needed for the horizontal scrollbar */
+  }
+  
+  div::-webkit-scrollbar-thumb {
+    background-color: white; /* Color of the thumb */
+    border-radius: 4px;
+  }
+  
+  div::-webkit-scrollbar-track {
+    background-color: black; /* Color of the track */
+  }
+
+  
+  
+
+.notification{
+    height: 20px;
+    width: 80px;
+}
+
